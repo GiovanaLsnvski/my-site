@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: "f-font";
+    src: url('fonts/static/Nunito-Regular.ttf') format('truetype');
+}
+
+body{
+    background-image: linear-gradient(to bottom, #EEEEFF, #9FB4C7 ) ;
+    font-size: 1em;
+
+
+main{
+    background-color: white;
+    width: 1350px;
+    padding: 20px;
+    margin: auto;
+    border-radius: 10px;
+}
+h1{
+
+    text-align: center;
+    color: #28587B;
+    text-shadow: 2px 2px 3px #19374c72;
+    font-family: 'f-font','Ubuntu Mono', monospace;
+}
+
+h2{
+    font-family: 'f-font','Courier New', Courier, monospace;
+    color: #383552;
+    text-shadow: 2px 2px 3px #38355283;
+}
+
+p{
+    font-family: 'f-font','Courier New', Courier, monospace;
+    text-align: justify;
+}
+
+ul{
+    font-family: 'f-font','Courier New', Courier, monospace;
+}
+}
